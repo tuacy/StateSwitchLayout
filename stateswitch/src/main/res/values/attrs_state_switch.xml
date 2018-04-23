@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="StateLayout">
+        <!-- 数据内容布局 -->
+        <attr name="state_content_layout" format="reference" />
+    </declare-styleable>
+</resources>

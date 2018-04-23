@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">StateSwitchLayout</string>
+
+    <string name="state_menu_content">状态-内容</string>
+    <string name="state_menu_ing">状态-加载中</string>
+    <string name="state_menu_empty">状态-无数据</string>
+    <string name="state_menu_error">状态-错误</string>
+
+    <string name="default_state">默认的状态View</string>
+    <string name="customer_state">自定义的状态View</string>
+    <string name="multi_module_state">同一个页面多个加载</string>
+
+    <string name="data_empty">暂无数据!~</string>
+    <string name="statue_refresh">刷新</string>
+    <string name="statue_loading">加载中!~~~</string>
+
+    <string name="module_0">模块一</string>
+    <string name="module_0_loading">模块一 加载中</string>
+    <string name="module_0_error">模块一 加载失败</string>
+    <string name="module_0_empty">模块一 空</string>
+    <string name="module_1">模块二</string>
+    <string name="module_1_loading">模块二 加载中</string>
+    <string name="module_1_error">模块二 加载失败</string>
+    <string name="module_1_empty">模块二 空</string>
+    <string name="module_2">模块三</string>
+    <string name="module_2_loading">模块三 加载中</string>
+    <string name="module_2_error">模块三 加载失败</string>
+    <string name="module_2_empty">模块三 空</string>
+</resources>

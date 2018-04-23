@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_state"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_default_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_state"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_customer_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer_state"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_multi_module_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_module_state"
+        android:textAllCaps="false" />
+
+</LinearLayout>
