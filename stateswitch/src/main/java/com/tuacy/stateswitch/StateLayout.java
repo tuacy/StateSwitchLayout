@@ -37,6 +37,33 @@ public class StateLayout extends FrameLayout {
 		}
 	};
 
+	/**
+	 * 设置默认的加载中的UI
+	 *
+	 * @param creator 　IngCreator
+	 */
+	public static void setDefaultIngCreator(IngCreator creator) {
+		sIngCreator = creator;
+	}
+
+	/**
+	 * 设置默认数据为空的时候的UI
+	 *
+	 * @param creator 　EmptyCreator
+	 */
+	public static void setDefaultEmptyCreator(EmptyCreator creator) {
+		sEmptyCreator = creator;
+	}
+
+	/**
+	 * 设置默认数据获取失败时候的UI
+	 *
+	 * @param creator 　ErrorCreator
+	 */
+	public static void setDefaultErrorCreator(ErrorCreator creator) {
+		sErrorCreator = creator;
+	}
+
 	public enum State {
 		/**
 		 * 数据内容显示
